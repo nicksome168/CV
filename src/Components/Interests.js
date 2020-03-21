@@ -18,7 +18,7 @@ class Interests extends Component {
           {
             this.interests.link.map((data, index) => (
               <div key={index} >
-              <a href={data.link}>{data.name}</a>  
+              <li><a href={data.link}>{data.name}</a></li>
               </div>
             ))
           }
