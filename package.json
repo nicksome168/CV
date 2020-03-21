@@ -23,7 +23,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage":"http://nick-yc-tw.me/",
+  "homepage":"http://nicksome168.github.io",
   "eslintConfig": {
     "extends": "react-app"
   },
