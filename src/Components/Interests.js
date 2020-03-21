@@ -14,6 +14,14 @@ class Interests extends Component {
           <h2 className="mb-5">Interests</h2>
           <p>{this.interests.paragraphOne}</p>
           <p className="mb-0">{this.interests.paragraphTwo}</p>
+          <br/>
+          {
+            this.interests.link.map((data, index) => (
+              <div key={index} >
+              <a href={data.link}>{data.name}</a>  
+              </div>
+            ))
+          }
         </div>
       </section>
     );

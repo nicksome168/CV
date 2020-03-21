@@ -1,72 +1,99 @@
 {
 	"landing": {
-		"firstName": "Anupam",
-		"lastName": "Dagar",
-		"phoneNumber": "+91-0123456789",
-		"bio": "I am an opensource contributor and have contributed to Zulip, Hasura, Fossasia, Publiclab and many other projects. My tech stack includes Python and Javascript. Python for server side and scripting and Javascript for the frontend. I use Django framework for the server side development and React for the frontend development. I have also worked with GraphQL. I am a GitHub Campus Expert at my insititute where I am responsible for building on campus community. I am the lead organiser of Hack In The North Hackathon and the cofounder of Pragma Conference held at IIIT Allahabad.",
-    "email": "dagaranupam@gmail.com",
-    "linkedin": "https://linkedin.com/in/anupamdagar",
-		"github": "https://github.com/Anupam-dagar"
+		"firstName": "Nick",
+		"lastName": "CHAO",
+		"phoneNumber": "+886-981167765",
+		"bio": "I am a collaborative and self-disciplined person with adequate software and interpersonal skills who is always willing to take responsibility to go beyond what is expected.",
+    "email": "b05502058@ntu.edu.tw",
+    "linkedin": "https://www.linkedin.com/in/nick-chao/",
+		"github": "https://github.com/nicksome168/Resume"
 	},
-	"experience": [
+	"Projects": [
 		{
-				"position": "GitHub Campus Expert",
-				"organization": "GitHub",
-				"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
-				"fromDate": "August 2018",
-				"toDate": "Present"
+			"position": "On-site Search Result Accuracy Evaluation Automation Program",
+			"link": "https://drive.google.com/file/d/1vWJ2DKcKFXnS3V0O1Ge-yE3zddzUP45G/view?usp=sharing",
+			"organization": "Intern Project, KKDAY.COM",
+			"aboutWork1": "Speeded up preliminary accuracy evaluation of results of the top monthly queries",
+			"aboutWork2": "Built an RPA from scratch with Python to automatically inspect result accuracy",
+			"aboutWork3": "Increased efficiency from examining 600 queries in 1 day to 24k+ queries in 15 minutes",
+			"fromDate": "July 2019",
+			"toDate": "December 2019"
 		},
 		{
-			"position": "Opensource Developer Intern",
-			"organization": "Fossasia",
-			"aboutWork": "Contributing to Fossasia's open event server and frontend as an intern. Resolved numerous bugs and added new features to the eventyay platform.",
-			"fromDate": "June 2019",
-			"toDate": "Present"
+			"position": "Where2Study and Busy Times Patterns at NTU studyroom",
+			"link": "https://github.com/nicksome168/Resume",
+			"organization": "Self-Initiated Projects",
+			"aboutWork1": "Addressed overcrowding issues in the study room and the Uni library",
+			"aboutWork2": "Scraped and preprocessed 12k+ courses data using AWS EC2, ParseHub, and Python",
+			"aboutWork3": "Built two programs which can visualize students flow patterns and search for not-in-use classrooms as an alternative studying place",
+			"fromDate": "Febuary 2018",
+			"toDate": "June 2018"
 		},
 		{
-			"position": "Software Developer Intern",
-			"organization": "Hasura",
-			"aboutWork": "Worked on Hasura's GraphQL engine and added new features in it.",
-			"fromDate": "December 2018",
-			"toDate": "January 2019"
+			"position": "Age Prediction with Blurry Image by DeepLearning",
+			"link": "https://drive.google.com/drive/u/0/folders/1m7FJW_iiMLLGMFLgW3Igcpzu2zaftnlx",
+			"organization": "Final GROUP Project, Computer Programming (NTU EE1004_03)",
+			"aboutWork1": "Tackled low-quality images recognition problem in CCTV",
+			"aboutWork2": "Designed 6 different training approaches with a pre-trained CNN model",
+			"aboutWork3": "Acquired preliminary results of 2 models with the observation of imbalanced dataset",
+			"fromDate": "Oct 2017",
+			"toDate": "Jan 2018"
 		}
 	],
 	"education": [{
-			"university": "Indian Institute of Information Technology Allahabad",
-			"degree": "Bachelor of Technology",
-			"gpa": "12.34",
-			"fromDate": "August 2016",
+			"university": "National Taiwan University",
+			"degree": "B.S. in Information Management (minor: Mechanical Engineering)",
+			"gpa": "GPA: 3.69/4.3",
+			"fromDate": "September 2016",
 			"toDate": "Present"
+		},
+		{
+			"university": "Technische Universität Berlin",
+			"degree": "Summer Program-“Quantitative Decision Making for Business Operation” Module",
+			"gpa": "Marks: 91/100",
+			"fromDate": "August 2018",
+			"toDate": "August 2018"
 		}
 	],
 	"skills": [{
-			"name": "HTML5"
+			"name": "Python (experiencd)"
 		},
 		{
-			"name": "CSS3"
+			"name": "C++ (experienced)"
 		},
 		{
-			"name": "Javascript"
+			"name": "Git (familiar)"
 		},
 		{
-			"name": "React"
+			"name": "R (familiar)"
 		},
 		{
-			"name": "Nodejs"
+			"name": "Linux (experienced)"
 		},
 		{
-			"name": "Python"
+			"name": "Jupyter notebook (experienced)"
 		},
 		{
-			"name": "Django"
+			"name": "English: ITELS (7.5/9.0)"
 		},
 		{
-			"name": "Ember"
+			"name": "German: Goethe-Zertifikat B2"
 		}
 	],
 	"interests": {
-		"paragraphOne": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.",
-		"paragraphTwo": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
+		"paragraphOne": "Besides programming, I am also interested in Finance and Cloud computing.",
+		"paragraphTwo": "Currently, I am taking online courses and trainings, such as Investment, Financial Management, and Cloud Support Associate career pathway on AWS Education",
+		"link":[{
+			"name": "Investment on OpenEdu",
+			"link": "https://www.openedu.tw/course.jsp?id=391"
+		},{
+			"name": "Financial Management on NTU OCW",
+			"link": "http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/101S110"
+		},{
+			"name": "Cloud Support Associate career pathway training on AWS Edu",
+			"link": "https://aws.amazon.com/blogs/publicsector/aws-educate-gives-students-access-to-cloud-career-pathways-aws-badges-and-the-aws-educate-job-board/"
+		}
+	]
 	},
 	"awards": [{
 			"awardDetail": "Hack 36 3rd prize winner."

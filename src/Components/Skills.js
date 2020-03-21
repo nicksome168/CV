@@ -8,6 +8,7 @@ class Skills extends Component {
     super(props);
 
     this.skills = props.skills;
+    this.languages = props.languages;
   }
 
   render() {
@@ -15,7 +16,7 @@ class Skills extends Component {
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
         <div className="w-100">
           <h2 className="mb-5">Skills</h2>
-          <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+          <div className="subheading mb-3">Programming & Languages Proficeincy</div>
           <div className="row">
           {
             this.skills.map((data, index) => (
@@ -28,8 +29,10 @@ class Skills extends Component {
             ))
           }
           </div>
+          
         </div>
       </section>
+      
     );
   }
 }
