@@ -82,7 +82,7 @@
 	],
 	"interests": {
 		"paragraphOne": "Besides programming, I am also interested in Finance and Cloud computing.",
-		"paragraphTwo": "Currently, I am taking online courses and trainings, such as Investment, Financial Management, and Cloud Support Associate career pathway on AWS Education",
+		"paragraphTwo": "Currently, I am taking online courses and trainings, such as Investment, Financial Management, and Cloud Support Associate career pathway on AWS Education.",
 		"link":[{
 			"name": "Investment on OpenEdu",
 			"link": "https://www.openedu.tw/course.jsp?id=391"
@@ -95,14 +95,14 @@
 		}
 	]
 	},
-	"awards": [{
-			"awardDetail": "Hack 36 3rd prize winner."
+	"Acknowledgement": [
+		{
+			"link": "https://github.com/BlackrockDigital/startbootstrap-resume",
+			"name":"This CV template is created by Start Bootstrap"
 		},
 		{
-			"awardDetail": "Mentor OpenCode'19"
-		},
-		{
-			"awardDetail": "Started North India's First Student Design and Developer Conference."
+		"link": "https://levelup.gitconnected.com/create-a-portfolio-using-react-and-github-student-developer-pack-955379207855",
+		"name":"Tutorial: 'Create a portfolio using React and GitHub Student Developer Pack' by Anupam Dagar"
 		}
 	]
 }

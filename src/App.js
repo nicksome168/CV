@@ -5,7 +5,7 @@ import Projects from './Components/Projects';
 import Education from './Components/Education';
 import Skills from './Components/Skills';
 import Interests from './Components/Interests';
-import Awards from './Components/Awards';
+import Acknowledgement from './Components/Acknowledgement';
 import profileData from './profileData.json';
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
       education : profileData.education,
       skills : profileData.skills,
       interests : profileData.interests,
-      // awards : profileData.awards
+      Acknowledgement : profileData.Acknowledgement
     }
   }
   render() {
@@ -35,8 +35,8 @@ class App extends Component {
           <Skills skills={this.state.skills} />
           <hr className="m-0" />
           <Interests interests={this.state.interests} />
-          {/* <hr className="m-0" />
-          <Awards awards={this.state.awards} /> */}
+          <hr className="m-0" />
+          <Acknowledgement Acknowledgement={this.state.Acknowledgement} />
         </div>
       </div>
     );
